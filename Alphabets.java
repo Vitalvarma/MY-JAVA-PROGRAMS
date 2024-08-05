@@ -1,13 +1,13 @@
-import java.lang.*;
+import java.util.*;
 class Alphabets{
 	public static int CountVowels(String str,int n){
 		char vowels[] = {'a','e','i','o','u','A','E','I','O','U'};
 		int m = vowels.length;
 		int count_vow =0;
-		for(char ch:str.toCharArray){
+		for(int i=0;i<n;i++){
 			int flag=0;
 			for(int j=0;j<m;j++){
-				if(vowels[j] == ch){
+				if(vowels[j] == str.charAt(i)){
 					flag = 1;
 				}
 			}
