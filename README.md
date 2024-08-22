@@ -1,2 +1,0 @@
-# MY-JAVA-PROGRAMS
-java
